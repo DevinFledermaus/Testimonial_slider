@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devin's Testimonials</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Set up your HTML -->
+    <div class="owl-carousel">
+      <div class="slide">
+        <div class="images">
+          <img src="./images/dean.jpg" alt="Dean Winchester" />
+        </div>
+        <div class="content">
+          <h1>Dean Winchester</h1>
+          <h2>Hunter</h2>
+          <q>Driver picks the music, shotgun shuts his cakehole.</q>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="images">
+          <img src="./images/brian2.jpg" alt="Brian o'Conner" />
+        </div>
+        <div class="content">
+          <h1>Brian o'Connor</h1>
+          <h2>Buster</h2>
+          <q>If I win, I take the cash, and I take the respect</q>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="images">
+          <img src="./images/vin.jpg" alt="Dominic Toretto" />
+        </div>
+        <div class="content">
+          <h1>Dominic Toretto</h1>
+          <h2>Family Man</h2>
+          <q>I live my life a quarter mile at a time.</q>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="images">
+          <img
+            src="./images/2-fast-2-furious-tyrese-gibson-roman-pearce-wallpaper-preview.jpg"
+            alt="Roman Pearce"
+          />
+        </div>
+        <div class="content">
+          <h1>Roman Pearce</h1>
+          <h2>Double Alpha</h2>
+          <q>I'm not going back to Barstow.</q>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="images">
+          <img src="./images/han2.jpg" alt="Han" />
+        </div>
+        <div class="content">
+          <h1>Han Seoul-Oh</h1>
+          <h2>Unkillable</h2>
+          <q>I have money, it's trust and character I need around me.</q>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="images">
+          <img src="./images/batman.jpg" alt="Batman on a roof" />
+        </div>
+        <div class="content">
+          <h1>Batman</h1>
+          <h2>Vengence</h2>
+          <q
+            >All men have limits. They learn what they are and learn not to
+            exceed them. I ignore mine.</q
+          >
+        </div>
+      </div>
+      <div class="slide">
+        <div class="images">
+          <img src="./images/joker.jpeg" alt="Roman Pearce" />
+        </div>
+        <div class="content">
+          <h1>Joker</h1>
+          <h2>The Clown Prince</h2>
+          <q>Without Batman, crime has no punchline.</q>
+        </div>
+      </div>
+    </div>
+    <!-- Script tags under here -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          autoplay: true,
+        });
+      });
+    </script>
+  </body>
+</html>
