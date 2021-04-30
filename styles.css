@@ -27,19 +27,18 @@ body {
   -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
 }
 
 .images > img {
-  min-width: 20%;
-  max-width: 20%;
-  border-radius: 10%;
+  border-radius: 40%;
+  width: 200px !important;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 30px;
 }
 
 .content {
-  margin-left: 30%;
-  justify-content: center;
-  align-items: center;
-  margin-top: -10%;
   font-size: 120%;
 }
 
@@ -50,4 +49,32 @@ h1 {
 h2 {
   font-style: italic;
   font-size: 150%;
+}
+
+@media screen and (max-width: 800px) {
+  img {
+    /* float: right; */
+    margin: 0 0 5px;
+  }
+
+  h1 {
+    font-size: 100%;
+  }
+
+  h2 {
+    font-size: 100%;
+  }
+
+  .slide {
+    /* padding: 5% 5%; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .images > img {
+    margin-bottom: 30px;
+    width: 50vw !important;
+    height: 50vw;
+  }
 }
